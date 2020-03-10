@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Contact information</title>
+      <link rel="stylesheet" href="C:\JavaScript_Progs\css\styles.css">
+      <script>
+         var My_F = function(){
+             alert("information has been submitted")
+             document.write("Thank you for informing")
+         }
+      </script>
+   </head>
+   <body>
+      <h3>Contact info</h3>
+      <table align="center">
+         <tr>
+            <td align="left">Phone Number :</td>
+            <td align="left">+91 8105101573</td>
+         </tr>
+         <tr>
+            <td align="left">  Address:</td>
+            <td align="left"> SAP Labs Pvt Ind Ltd Bangalore</td>
+         </tr>
+         <tr>
+            <td align="left">Email:</td>
+            <td align="left">sample@gmail.com</td>
+         </tr>
+      </table>
+      <br>
+      <em>
+         <b>
+            <p>Please Submit your informtion below for registering a class with me</p>
+         </b>
+      </em>
+      <form class="form-ex" action="mailto:kushalbarsin@gmail.com" method="POST">
+         <table align="center"  >  
+            <tr>
+               <div class="form-ex">
+                  <td><label for="Name">Enter your Name:  </label></td>
+                  <td><input type="text" id="Name" name="Name"></td>
+               </div>
+            </tr>
+            <tr>
+               <div class="form-ex">
+                  <td><label for ="Email">Enter Your Email ID:  </label></td>
+                  <td><input type="email" id="Email" name="Email"></td>
+               </div>
+            </tr>
+            <tr>
+               <td>
+                  <label for ="password">Enter Password   </label>
+               </td>
+               <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+               <td><label> Your Message: </label></td>
+               <td><textarea name ="name" rows="2" cols="10"></textarea></td>
+            </tr>
+            <tr>
+               <td><input type="button" style="color: rgb(210, 183, 30)); background-color: rgb(210, 183, 30);" 
+                  id = "info" name="Submit" value="Submit" onclick="My_F()" class="cH">
+               </td>
+            </tr>
+            <br><br>
+         </table>
+         <br>
+         <center>
+            <label style="color: brown;">Please enter your date of birth:  </label>
+            <input type="date" value="2000-01-01"><br>
+         </center>
+         
+         <table align="center">
+            <tr>
+               <td><label>Please Rate this page in given range:  </label></td>
+               <td><label>0</label></td>
+               <td><input type="range"></td>
+               <td><label>10</label></td>
+            </tr>
+
+        <br>
+            <tr>
+                <td>
+                    <input type="checkbox" value = "X">
+                    <label>Do you like the website </label>
+                </td>              
+            </tr>
+         </table>
+      </form>
+      <br>
+      <em>
+         <b>
+            <p>Check out the cool gadget review below:</p>
+         </b>
+      </em>
+      <center>
+         <iframe width="300" height="150" src="https://www.youtube.com/embed/p_74rIzhOtQ" frameborder="0" 
+         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </center>
+      
+   </body>
+</html>
